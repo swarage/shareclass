@@ -10,7 +10,7 @@ $('.submit').click(function() {
   var name = $('#full_name').val();
   //$('#full_name').val('');
   var classes = [];
-  for (var i = 0; i < 6; i++) {
+  for (var i = 0; i < 8; i++) {
     var formval = $('#class_' + (i + 1)).val();
     //$('#class_' + (i+1)).val('');
     if (formval.length !== 0) {
